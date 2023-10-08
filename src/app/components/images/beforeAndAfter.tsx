@@ -29,7 +29,7 @@ const BeforeAndAfter = () => {
         setIsDragging(false);
     };
     return (
-        <div className="w-full relative" onHover={handleMouseUp}>
+        <div className="w-full relative" onClick={handleMouseUp}>
             <div
                 className="rounded-2xl relative w-full max-w-[700px] aspect-[70/45] m-auto overflow-hidden select-none"
                 onMouseMove={handleMove}
