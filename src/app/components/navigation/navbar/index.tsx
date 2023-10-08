@@ -15,7 +15,7 @@ const Navbar = () => {
   }
   return (
     <>
-      <div className="w-full h-20 bg-main sticky top-0">
+      <div className="w-full h-20 bg-main sticky z-10 top-0">
         <div className="container mx-auto px-4 h-full scroll-behavior: smooth">
           <div className="flex justify-between items-center h-full">
             <div>
